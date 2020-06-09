@@ -105,6 +105,7 @@ def konets(message):
         st = ', '.join(final_message)
         stroka = 'Вот что я для тебя нашел: ' + st
         bot.send_message(message.chat.id, stroka)
+        otvety.clear()
 
     else:
 
